@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smejkal HTML Intermediate Excercise</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <p>
+        <label for="firstname">Firstname: </label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="John"
+          style="background-color: lightblue"
+        />
+      </p>
+      <p>
+        <label for="lastname">Lastname: </label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Doe"
+          style="background-color: lightblue"
+        />
+      </p>
+      <p>
+        <label for="course">Course: </label>
+        <select name="course" id="course">
+          <option value="HTML" selected>HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Javascript">Javascript</option>
+        </select>
+      </p>
+      <p>
+        <label for="gender">Gender: </label> <br />
+        <input type="radio" name="gender" id="male" value="male" checked />Male
+        <br />
+        <input type="radio" name="gender" id="female" value="female" />Female
+        <br />
+      </p>
+      <p>
+        <label for="hobbies">Hobbies: </label> <br />
+        <input
+          type="checkbox"
+          name="hobbies"
+          id="hobbies"
+          value="Programming"
+          checked
+        />Programming <br />
+        <input
+          type="checkbox"
+          name="hobbies"
+          id="hobbies"
+          value="Basketball"
+          checked
+        />Basketball <br />
+        <input
+          type="checkbox"
+          name="hobbies"
+          id="hobbies"
+          value="Football"
+        />Football <br />
+        <input
+          type="checkbox"
+          name="hobbies"
+          id="hobbies"
+          value="ReadingNovel"
+        />Reading Novel <br />
+      </p>
+
+      <p>
+        <label for="phone">Phone: </label>
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="004312345678912"
+          style="background-color: lightblue"
+        />
+      </p>
+      <p>
+        <label for="address">Address: </label> <br />
+        <textarea
+          name="address"
+          id="address"
+          cols="40"
+          rows="5"
+          placeholder="Schützenstraße 30, 6323, Vienna, Austria"
+        ></textarea>
+      </p>
+      <p>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="johndoe@example.com"
+        />
+      </p>
+      <p>
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="********"
+          style="background-color: lightblue"
+        />
+      </p>
+      <p>
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </p>
+    </form>
+  </body>
+</html>
